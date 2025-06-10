@@ -1,0 +1,64 @@
+body {
+    background: #222;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(beijo.JPG);
+    background-size: cover;
+    position: relative;
+    
+    
+  }
+
+
+
+  /*.foto {
+
+    display: flex;
+    height: 800px;
+    width: 900px;
+    background-color:firebrick;
+
+  }*/
+  
+/*  .container {
+
+    background: #333;
+    padding: 40px 60px;
+    border-radius: 24px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+   
+  }*/
+
+  .container {
+    position: relative;
+    z-index: 1;
+    background: rgba(51,51,51,0.8); /* deixa o fundo do texto um pouco transparente */
+    padding: 40px 60px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+  }
+  
+  #counter {
+    font-size: 2em;
+    margin: 20px 0;
+    letter-spacing: 2px;
+  }
+  
+  p {
+    margin-top: 16px;
+    font-size: 1.1em;
+  }
+  
